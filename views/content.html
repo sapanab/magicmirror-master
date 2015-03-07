@@ -6,13 +6,18 @@
             </div>
        </div>
 -->
-<div class="banner-image">
+<div class="animatedParent">
+<div class="animated bounceInDown banner-image">
     <a href="#">
         <center>
             <img src="img/banner.jpg" class="img-responsive">
         </center>
     </a>
 </div>
+</div>
+<div class='animatedParent'>
+<h2 class='animated bounceInDown'>It Works!</h2>
+</div>	
 <!--div class="row marginer">
             <div class="col-xs-4 wow fadeInLeft">
                 <img class="img" src="img/newin.jpg">
@@ -31,7 +36,8 @@
         <div class=catogory> <span>Catergories</span>
         </div>
     </div>
-    <div class="bckgrnd-sliderup wow bounceOut" data-wow-duration="20s" data-wow-delay="25s">
+    <section class="wow bounceOut" data-wow-delay="1500ms" data-wow-iteration="infinite">
+    <div  class="bckgrnd-sliderup">
         <div class="imageset">
             <a ng-click="slidesetprev(showslideset1);">
                 <div class="toggle left">
@@ -47,12 +53,12 @@
             <div style="overflow:hidden;height:250px;text-align: center;">
                 <span ng-repeat="slider in sliders1">
                 <span ng-show="$index<4" class="pickweek">
-                    <div class="proprice proprice2 wow bounceOut">
+                    <div class="proprice proprice2">
                         <a href="#">
                             <h5> {{slider.name}}</h5>
                         </a>
                     </div>
-                    <a href="#"><img src="{{slider.image|imagepath2}}" class="slideset1 " ng-show="showslideset1==0"></a>
+                    <a href="#"><img src="{{slider.image|imagepath2}}" class="slideset1" ng-show="showslideset1==0"></a>
                    
                 </span>
                 <span ng-show="$index>=4" class="pickweek">
@@ -72,7 +78,7 @@
         </div>
 
     </div>
-
+</section>
 
     <!--
     <script>

@@ -99,7 +99,7 @@
     <script src="lib/js/jstorage.js"></script>
     <script src="https://checkout.stripe.com/checkout.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-
+    
 </head>
 
 <body >
@@ -172,9 +172,7 @@
             });
         });
     </script>
-    <script>
-        new WOW().init();
-    </script>
+   
 
     <script type="text/javascript">
         (function (d, t) {
@@ -193,7 +191,9 @@ window.addEventListener("beforeunload", function (e) {
     return false;
 }); 
     </script>
-    
+     <script>
+        new WOW().init();
+    </script>
 
 </body>
 
